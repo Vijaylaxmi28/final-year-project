@@ -1,0 +1,122 @@
+*{
+	margin-left:auto;
+	margin-right:auto;
+}
+body
+{ font-family:Arial, Helvetica, sans-serif;
+ /*background:#FFF;
+ background:"pic6.jpg" ;*/
+  margin:0px;
+ font-size:50px;
+ text-align: center;
+
+
+}
+.main{ 
+	width:1300px; 
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important; 
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3) !important;
+	margin-bottom:20px;
+}
+.clearfix{
+ clear:both;}
+.header{
+	width:1300px; height:100px; float:left; border-top:2px solid #0099da;
+	border-bottom:2px solid #0099da; 
+	/*background:#FFF;*/
+	background="pic6.jpg";
+}
+.header-left{ 
+	width:250px; float:left;
+	 padding-top:15px;}
+
+.header-right{
+ width:1050px;
+  float:left;
+   padding-top:10px;}
+
+
+
+.form{ height:30px;
+ padding:0px 10px; 
+ float:left;
+  border:1px solid #0099da;
+   border-radius:2px;}
+
+.header-right-bottom{ width:1050px;
+ height:40px;
+  float:left;}
+
+.header-right-bottom ul{
+	list-style:none;
+	 margin:0px;
+	  padding-left:100px}
+
+.header-right-bottom ul li{
+	list-style:none;
+	 font-family:arial;
+	  font-size:20px;
+	   padding:10px 0px 5px; 
+	margin:5px 0px;
+	 float:left;
+	  font-weight:bold;
+}
+.header-right-bottom ul li a{ padding:5px 28px 10px; margin:2px 0px 5px; text-decoration:none; color:#000;}
+.header-right-bottom ul li a:hover{ color:#0099dd;}
+
+.btn-group button {
+  /*background-color: #04AA6D;  Green background */
+  background-color:  #53778D;
+  border: 3px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other 
+  margin-left: 20px;*/
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 30px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 8px;
+  margin-top: 50px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  font-size: 8px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 8px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
